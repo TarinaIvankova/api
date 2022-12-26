@@ -1,38 +1,47 @@
-.App {
+body {
+background-image: url('fon.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.app {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+.appTwo {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+font-size: 30px;
+font-family: 'Grechen Fuemen', cursive;
+color: green;
+text-shadow: 2px 2px rgb(237, 237, 15);
+text-align: center;
+}
+p {
+  font-size: 30px;
+  font-family: 'Grechen Fuemen', cursive;
+  color: rgb(14, 69, 10);
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  font-family: 'Grechen Fuemen', cursive;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: rgb(87, 245, 43);
+  border: none;
+  border-radius: 20px;
+  text-shadow: 2px 2px rgb(237, 237, 15);
+  box-shadow: 1px 3px 3px green;
+  color: rgb(14, 69, 10);
+  margin-bottom: 250px;
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media all and (max-width:800px){
+  body {
+    background-size: cover;
+    background-color: rgb(238, 238, 76);
+    }
 }
